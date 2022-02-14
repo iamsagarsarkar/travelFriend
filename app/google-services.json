@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "742615950487",
+    "project_id": "travelfriendsgr",
+    "storage_bucket": "travelfriendsgr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742615950487:android:de65618c7481236d7db5d2",
+        "android_client_info": {
+          "package_name": "com.example.travelfriend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742615950487-r07rms1ooat9q6qgthj1iggg0hr6u8bf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travelfriend",
+            "certificate_hash": "a61983fad2f4efee2d4407b536d85b256b619e78"
+          }
+        },
+        {
+          "client_id": "742615950487-08oalpldkgokqne2lvucdce8vgn1boo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdqhm6pVkne5FbUNWIJWgHZF_ATwdFJIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742615950487-08oalpldkgokqne2lvucdce8vgn1boo5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

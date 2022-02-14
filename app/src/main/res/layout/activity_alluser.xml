@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AlluserActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/activity_all_user_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:theme="@style/CustomToolbarStyle"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresher_layout_all_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_all_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <TextView
+            android:id="@+id/tv_empty_all_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Loading..."
+            android:textSize="20dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+    </FrameLayout>
+</LinearLayout>

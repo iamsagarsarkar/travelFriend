@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Travel Friend</string>
+    <string name="google_maps_api_key">AIzaSyBzYo_qWf2y1F5kITZG1O_u0tP5wFM6Ry4</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="twitter_consumer_key" translatable="false">eHowEot9c1lQHHXGwqEvuXek1</string>
+    <string name="twitter_consumer_secret" translatable="false">FMTDw04EoHuzOEzbkN7bsRpepmNTbipisjZQdHvrPmriwLj8vq</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="web_client_id">742615950487-08oalpldkgokqne2lvucdce8vgn1boo5.apps.googleusercontent.com</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+</resources>
